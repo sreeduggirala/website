@@ -56,11 +56,6 @@ export default function Home() {
         <div className="content space-y-2">
           {[
             {
-              title: "Solana DeFi...an Oxymoron?",
-              year: "2025",
-              link: "https://mirror.xyz/sreevanth.eth",
-            },
-            {
               title: "Comparing Onchain Vault Strategies",
               year: "2025",
               link: "https://mirror.xyz/sreevanth.eth",
@@ -94,7 +89,7 @@ export default function Home() {
             {
               name: "Loop — Token incentivized crowdsourced RLHF platform",
               year: "2024",
-              link: "https://github.com/shreybirmiwal/loop",
+              link: "https://github.com/shreybirmiwal/Loop-ethSF2024",
             },
             {
               name: "Swoosh — Onchain payments and bill splitting",
