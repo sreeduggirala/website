@@ -111,6 +111,27 @@ export default function Home() {
           ))}
         </div>
       </section>
+
+      {/* Reading */}
+      <section className="flex flex-col md:flex-row gap-4">
+        <h2 className="section-title">Reading</h2>
+        <div className="content space-y-2">
+          {[
+            {
+              title: "Options Volatility and Pricing",
+              author: "Sheldon Natenberg",
+              link: "https://mirror.xyz/sreevanth.eth",
+            },
+          ].map((article) => (
+            <div key={article.title} className="flex justify-between items-baseline">
+              <Link href={article.link} className="project-link">
+                {article.title}
+              </Link>
+              <span className="author">{article.author}</span>
+            </div>
+          ))}
+        </div>
+      </section>
     </main>
   )
 }
