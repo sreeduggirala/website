@@ -11,10 +11,10 @@ const spaceMono = Space_Mono({
 
 export const metadata: Metadata = {
   title: "Sree Duggirala",
-  description: "Sree Duggirala's personal portfolio showcasing work in quantitative finance, MEV, and DeFi",
+  description: "Personal portfolio showcasing work in quantitative finance, MEV, and DeFi",
   openGraph: {
     title: "Sree Duggirala",
-    description: "Sree Duggirala's personal portfolio showcasing work in quantitative finance, MEV, and DeFi",
+    description: "Personal portfolio showcasing work in quantitative finance, MEV, and DeFi",
     type: "website",
   },
 }
