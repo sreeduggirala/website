@@ -7,8 +7,8 @@ export default function Home() {
       <header className="flex justify-between items-center">
         <div className="">Sree Duggirala</div>
         <nav className="space-x-4">
-          <Link href="mailto:sree@dcg.co" className="hover:underline">
-            Email
+          <Link href="https://linkedin.com/in/sreevanthduggirala" className="hover:underline">
+            LinkedIn
           </Link>
           <Link href="https://twitter.com/sreethereum" className="hover:underline">
             Twitter
