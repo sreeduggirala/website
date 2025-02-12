@@ -87,14 +87,6 @@ export default function Home() {
               link: "https://polaris.gm",
             },
             {
-              name: "Dragunov — Multi-strategy memecoin sniping bot",
-              year: "2025",
-            },
-            {
-              name: "Basis — Funding rate arbitrage bot on Hyperliquid",
-              year: "2025",
-            },
-            {
               name: "BitChat — RAG-based chatbot for the Bitcoin whitepaper",
               year: "2024",
               link: "https://github.com/sreeduggirala/bitchat",
