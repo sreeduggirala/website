@@ -120,7 +120,7 @@ export default function Home() {
             {
               title: "Options Volatility and Pricing",
               author: "Sheldon Natenberg",
-              link: "https://mirror.xyz/sreevanth.eth",
+              link: "https://www.amazon.com/Option-Volatility-Pricing-Strategies-Techniques/dp/0071818774",
             },
           ].map((article) => (
             <div key={article.title} className="flex justify-between items-baseline">
