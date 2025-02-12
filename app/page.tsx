@@ -21,7 +21,7 @@ export default function Home() {
 
       {/* About */}
       <section className="flex flex-col md:flex-row gap-4">
-        <h2 className="section-title">About</h2>
+        <h2 className="section-title space-y-2">About</h2>
         <div className="content">
           <p className="mb-4">
             I&apos;m a Software Engineer Intern at{" "}
@@ -46,13 +46,13 @@ export default function Home() {
 
       {/* Interests */}
       <section className="flex flex-col md:flex-row gap-4">
-        <h2 className="section-title">Interests</h2>
+        <h2 className="section-title space-y-2">Interests</h2>
         <div className="content">Quantitative Finance, MEV, Macroeconomics</div>
       </section>
 
       {/* Articles */}
       <section className="flex flex-col md:flex-row gap-4">
-        <h2 className="section-title">Articles</h2>
+        <h2 className="section-title space-y-2">Articles</h2>
         <div className="content space-y-2">
           {[
             {
@@ -73,7 +73,7 @@ export default function Home() {
 
       {/* Projects */}
       <section className="flex flex-col md:flex-row gap-4">
-        <h2 className="section-title">Projects</h2>
+        <h2 className="section-title space-y-2">Projects</h2>
         <div className="content space-y-2">
           {[
             {
@@ -114,7 +114,7 @@ export default function Home() {
 
       {/* Reading */}
       <section className="flex flex-col md:flex-row gap-4">
-        <h2 className="section-title">Reading</h2>
+        <h2 className="section-title space-y-2">Reading</h2>
         <div className="content space-y-2">
           {[
             {
