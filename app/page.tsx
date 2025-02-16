@@ -36,7 +36,7 @@ export default function Home() {
               Foundry
             </Link>
             , Head of Engineering at{" "}
-            <Link href="https://texasblockchain.com" className="underline">
+            <Link href="https://texasblockchain.org" className="underline">
               Texas Blockchain
             </Link>
             .
