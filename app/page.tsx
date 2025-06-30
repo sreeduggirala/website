@@ -30,7 +30,7 @@ export default function Home() {
             </Link>
             and Co-President of {" "}
             <Link href="https://www.texasblockchain.com" className="underline">
-              Texas Blockchain
+              Texas Blockchain {" "}
             </Link>
              at the University of Texas at Austin.
           </p>
