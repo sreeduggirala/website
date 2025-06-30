@@ -24,20 +24,20 @@ export default function Home() {
         <h2 className="section-title">About</h2>
         <div className="content">
           <p className="mb-4">
-            I&apos;m a Software Engineer Intern at{" "}
+            I&apos;m a Research Analyst Intern at{" "}
             <Link href="https://dcg.co" className="underline">
               Digital Currency Group
             </Link>
-            .
+            and Co-President of {" "}
+            <Link href="https://www.texasblockchain.com" className="underline">
+              Texas Blockchain
+            </Link>
+            at the University of Texas at Austin.
           </p>
           <p>
             Prev. Software Engineer/AI Intern at{" "}
             <Link href="https://foundrydigital.com" className="underline">
               Foundry
-            </Link>
-            , Head of Engineering at{" "}
-            <Link href="https://texasblockchain.org" className="underline">
-              Texas Blockchain
             </Link>
             .
           </p>
@@ -47,7 +47,7 @@ export default function Home() {
       {/* Interests */}
       <section className="flex flex-col md:flex-row gap-4">
         <h2 className="section-title">Interests</h2>
-        <div className="content">Quantitative Finance, MEV, Macroeconomics</div>
+        <div className="content">Quantitative Finance, Macroeconomics</div>
       </section>
 
       {/* Articles */}
@@ -56,9 +56,9 @@ export default function Home() {
         <div className="content space-y-2">
           {[
             {
-              title: "Comparing Onchain Vault Strategies",
+              title: "The HODLer's Fallacy",
               year: "2025",
-              link: "https://mirror.xyz/sreevanth.eth",
+              link: "https://mirror.xyz/sreevanth.eth/6unQ_oX9sQFkvjPi3yehVi6M7Ak2t1V5hzyWYs9yUi4",
             },
           ].map((article) => (
             <div key={article.title} className="flex justify-between items-baseline">
@@ -77,9 +77,9 @@ export default function Home() {
         <div className="content space-y-2">
           {[
             {
-              name: "Polaris — Telegram-based trading bot on Monad",
+              name: "FantasyKOL — Fantasty sports game for crypto influencers/whales",
               year: "2025",
-              link: "https://polaris.gm",
+              link: "https://github.com/sreeduggirala/ethdenver2025",
             },
             {
               name: "BitChat — RAG-based chatbot for the Bitcoin whitepaper",
@@ -117,6 +117,10 @@ export default function Home() {
         <h2 className="section-title">Reading</h2>
         <div className="content space-y-2">
           {[
+            {
+              title: "Market Microstructure Theory",
+              author: "Maureen O'Hara",
+            },
             {
               title: "Options Volatility and Pricing",
               author: "Sheldon Natenberg",
