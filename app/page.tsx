@@ -28,7 +28,7 @@ export default function Home() {
             <Link href="https://dcg.co" className="underline">
               Digital Currency Group
             </Link>
-            and Co-President of {" "}
+            {" "} and Co-President of {" "}
             <Link href="https://www.texasblockchain.com" className="underline">
               Texas Blockchain
             </Link>
@@ -56,7 +56,7 @@ export default function Home() {
         <div className="content space-y-2">
           {[
             {
-              title: "The HODLer's Fallacy: Rethinking Conviction in a Market Designed for Exploitation",
+              title: "The HODLer's Fallacy: Rethinking Conviction in a Naturally Extractive Market",
               year: "2025",
               link: "https://mirror.xyz/sreevanth.eth/6unQ_oX9sQFkvjPi3yehVi6M7Ak2t1V5hzyWYs9yUi4",
             },
