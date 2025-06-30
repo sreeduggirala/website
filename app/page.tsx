@@ -56,7 +56,7 @@ export default function Home() {
         <div className="content space-y-2">
           {[
             {
-              title: "The HODLer's Fallacy",
+              title: "The HODLer's Fallacy: Rethinking Conviction in a Market Designed for Exploitation",
               year: "2025",
               link: "https://mirror.xyz/sreevanth.eth/6unQ_oX9sQFkvjPi3yehVi6M7Ak2t1V5hzyWYs9yUi4",
             },
@@ -77,7 +77,7 @@ export default function Home() {
         <div className="content space-y-2">
           {[
             {
-              name: "FantasyKOL — Fantasty sports game for crypto influencers/whales",
+              name: "FantasyKOL — Fantasty sports game for copytrading",
               year: "2025",
               link: "https://github.com/sreeduggirala/ethdenver2025",
             },
