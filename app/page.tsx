@@ -32,7 +32,7 @@ export default function Home() {
             <Link href="https://www.texasblockchain.com" className="underline">
               Texas Blockchain
             </Link>
-            at the University of Texas at Austin.
+             at the University of Texas at Austin.
           </p>
           <p>
             Prev. Software Engineer/AI Intern at{" "}
