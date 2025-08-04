@@ -25,7 +25,7 @@ export default function Home() {
         <div className="content">
           <p className="mb-4">
             I&apos;m the Co-President of {" "}
-            <Link href="https://www.texasblockchain.com" className="underline">
+            <Link href="https://www.texasblockchain.org" className="underline">
               Texas Blockchain
             </Link>
              {" "} at the University of Texas at Austin.
