@@ -24,18 +24,18 @@ export default function Home() {
         <h2 className="section-title">About</h2>
         <div className="content">
           <p className="mb-4">
-            I&apos;m a Research Analyst Intern at{" "}
-            <Link href="https://dcg.co" className="underline">
-              Digital Currency Group
-            </Link>
-            {" "} and Co-President of {" "}
+            I&apos;m the Co-President of {" "}
             <Link href="https://www.texasblockchain.com" className="underline">
               Texas Blockchain
             </Link>
              {" "} at the University of Texas at Austin.
           </p>
           <p>
-            Prev. Software Engineer/AI Intern at{" "}
+            Prev. Research Analyst Intern at{" "}
+            <Link href="https://dcg.co" className="underline">
+              Digital Currency Group
+            </Link>
+            , Software Engineer/AI Intern at{" "}
             <Link href="https://foundrydigital.com" className="underline">
               Foundry
             </Link>
