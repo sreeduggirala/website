@@ -56,9 +56,14 @@ export default function Home() {
         <div className="content space-y-2">
           {[
             {
+              title: "Predictions Are All You Need",
+              year: "2025",
+              link: "https://x.com/sreethereum/status/1968789871025176786",
+            },
+            {
               title: "The HODLer's Fallacy: Rethinking Conviction in a Naturally Extractive Market",
               year: "2025",
-              link: "https://mirror.xyz/sreevanth.eth/6unQ_oX9sQFkvjPi3yehVi6M7Ak2t1V5hzyWYs9yUi4",
+              link: "https://x.com/sreethereum/status/1968789871025176786",
             },
           ].map((article) => (
             <div key={article.title} className="flex justify-between items-baseline">
