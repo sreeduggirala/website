@@ -58,7 +58,7 @@ export default function Home() {
             {
               title: "Predictions Are All You Need",
               year: "2025",
-              link: "https://x.com/sreethereum/status/1968789871025176786",
+              link: "https://x.com/sreethereum/status/1969383114125558020",
             },
             {
               title: "The HODLer's Fallacy: Rethinking Conviction in a Naturally Extractive Market",
