@@ -56,6 +56,11 @@ export default function Home() {
         <div className="content space-y-2">
           {[
             {
+              title: "What is Market Making?",
+              year: "2025",
+              link: "/mm-articles/MM1.pdf",
+            },
+            {
               title: "Predictions Are All You Need",
               year: "2025",
               link: "https://x.com/sreethereum/status/1969383114125558020",
