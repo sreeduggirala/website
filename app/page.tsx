@@ -1,5 +1,7 @@
 import Link from "next/link"
 
+import { articles } from "./articles/articles"
+
 export default function Home() {
   return (
     <main className="space-y-12">
@@ -54,20 +56,9 @@ export default function Home() {
       <section className="flex flex-col md:flex-row gap-4">
         <h2 className="section-title">Articles</h2>
         <div className="content space-y-2">
-          {[
-            {
-              title: "What is Market Making?",
-              year: "2025",
-              link: "/mm-articles/MM1.pdf",
-            },
-            {
-              title: "The HODLer's Fallacy: Rethinking Conviction in a Naturally Extractive Market",
-              year: "2025",
-              link: "https://x.com/sreethereum/status/1968789871025176786",
-            },
-          ].map((article) => (
+          {articles.map((article) => (
             <div key={article.title} className="flex justify-between items-baseline">
-              <Link href={article.link} className="project-link">
+              <Link href={`/articles/${article.slug}`} className="project-link">
                 {article.title}
               </Link>
               <span className="year">{article.year}</span>
@@ -141,4 +132,3 @@ export default function Home() {
     </main>
   )
 }
-
