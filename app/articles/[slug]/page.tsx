@@ -19,8 +19,23 @@ export default function ArticlePage({ params }: ArticlePageProps) {
   return (
     <main className="max-w-3xl mx-auto px-4 md:px-0 space-y-10">
       <header className="space-y-3">
-        <Link href="/" className="text-sm text-neutral-500 hover:underline">
-          Back to home
+        <Link
+          href="/"
+          className="inline-flex items-center text-neutral-500 hover:text-neutral-700"
+          aria-label="Back to home"
+        >
+          <svg
+            aria-hidden="true"
+            viewBox="0 0 24 24"
+            className="h-5 w-5"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="1.8"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          >
+            <path d="M15 18l-6-6 6-6" />
+          </svg>
         </Link>
         {article.subtitle ? (
           <div className="text-xs uppercase tracking-widest text-neutral-400">

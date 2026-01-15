@@ -12,7 +12,7 @@ export default function Home() {
           <Link href="mailto:sree@dcg.co" className="hover:underline">
             Email
           </Link>
-          <Link href="https://twitter.com/sreethereum" className="hover:underline">
+          <Link href="https://x.com/sreevanth" className="hover:underline">
             Twitter
           </Link>
           <Link href="https://github.com/sreeduggirala" className="hover:underline">
@@ -26,20 +26,27 @@ export default function Home() {
         <h2 className="section-title">About</h2>
         <div className="content">
           <p className="mb-4">
-            I&apos;m the Co-President of {" "}
-            <Link href="https://www.texasblockchain.org" className="underline">
-              Texas Blockchain
-            </Link>
-             {" "} at the University of Texas at Austin.
+            I&apos;m a Quantitative Developer Intern at Artemis and a senior in ECE at
+            UT Austin.
           </p>
           <p>
             Prev. Research Analyst Intern at{" "}
-            <Link href="https://dcg.co" className="underline">
+            <Link href="https://dcg.co" className="text-[#E3C3C7] hover:text-[#E3C3C7]">
               Digital Currency Group
             </Link>
             , Software Engineer/AI Intern at{" "}
-            <Link href="https://foundrydigital.com" className="underline">
+            <Link
+              href="https://foundrydigital.com"
+              className="text-[#E3C3C7] hover:text-[#E3C3C7]"
+            >
               Foundry
+            </Link>
+            , Co-President of{" "}
+            <Link
+              href="https://www.texasblockchain.org"
+              className="text-[#E3C3C7] hover:text-[#E3C3C7]"
+            >
+              Texas Blockchain
             </Link>
             .
           </p>
@@ -78,14 +85,24 @@ export default function Home() {
               link: "https://github.com/sreeduggirala/ethdenver2025",
             },
             {
+              name: "ammBT — Python-based backtesting engine for AMM LPs",
+              year: "2026",
+              link: "https://github.com/sreeduggirala/ammbt",
+            },
+            {
+              name: "Burner — Solana-native mixer that breaks on-chain transaction linkability for SPL token transfers",
+              year: "2026",
+              link: "https://github.com/sreeduggirala/burner",
+            },
+            {
+              name: "Checkmate — A CLI-based dual-agent coding assistant",
+              year: "2026",
+              link: "https://github.com/sreeduggirala/checkmate",
+            },
+            {
               name: "BitChat — RAG-based chatbot for the Bitcoin whitepaper",
               year: "2024",
               link: "https://github.com/sreeduggirala/bitchat",
-            },
-            {
-              name: "Loop — Token incentivized crowdsourced RLHF platform",
-              year: "2024",
-              link: "https://github.com/shreybirmiwal/Loop-ethSF2024",
             },
             {
               name: "Swoosh — Onchain payments and bill splitting",
@@ -108,27 +125,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Reading */}
-      <section className="flex flex-col md:flex-row gap-4">
-        <h2 className="section-title">Reading</h2>
-        <div className="content space-y-2">
-          {[
-            {
-              title: "Market Microstructure Theory",
-              author: "Maureen O'Hara",
-            },
-            {
-              title: "Options Volatility and Pricing",
-              author: "Sheldon Natenberg",
-            },
-          ].map((article) => (
-            <div key={article.title} className="flex justify-between items-baseline">
-              <span>{article.title}</span>
-              <span className="author">{article.author}</span>
-            </div>
-          ))}
-        </div>
-      </section>
     </main>
   )
 }
