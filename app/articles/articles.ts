@@ -137,8 +137,6 @@ export const articles: Article[] = [
     slug: "what-is-market-making",
     title: "What is Market Making?",
     year: "2025",
-    date: "November 15th, 2025",
-    author: "Sree Duggirala",
     summary:
       "This article introduces the core idea of market making: providing continuous liquidity by posting both buy and sell limit orders.",
     sections: [
