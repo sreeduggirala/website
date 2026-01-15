@@ -26,25 +26,34 @@ export default function Home() {
         <h2 className="section-title">About</h2>
         <div className="content">
           <p className="mb-4">
-            I&apos;m a Quantitative Developer Intern at Artemis and a senior in ECE at
-            UT Austin.
+            I&apos;m a Quantitative Developer Intern at{" "}
+            <Link
+              href="https://artemis.xyz"
+              className="bg-[#E3C3C7] text-black px-1 -mx-1 box-decoration-clone"
+            >
+              Artemis
+            </Link>{" "}
+            and a senior in ECE at UT Austin.
           </p>
           <p>
             Prev. Research Analyst Intern at{" "}
-            <Link href="https://dcg.co" className="text-[#E3C3C7] hover:text-[#E3C3C7]">
+            <Link
+              href="https://dcg.co"
+              className="bg-[#E3C3C7] text-black px-1 -mx-1 box-decoration-clone"
+            >
               Digital Currency Group
             </Link>
-            , Software Engineer/AI Intern at{" "}
+            , Software Engineer Intern at{" "}
             <Link
               href="https://foundrydigital.com"
-              className="text-[#E3C3C7] hover:text-[#E3C3C7]"
+              className="bg-[#E3C3C7] text-black px-1 -mx-1 box-decoration-clone"
             >
               Foundry
             </Link>
             , Co-President of{" "}
             <Link
               href="https://www.texasblockchain.org"
-              className="text-[#E3C3C7] hover:text-[#E3C3C7]"
+              className="bg-[#E3C3C7] text-black px-1 -mx-1 box-decoration-clone"
             >
               Texas Blockchain
             </Link>
