@@ -50,6 +50,15 @@ export default function ArticlePage({ params }: ArticlePageProps) {
                 {section.equation}
               </div>
             ) : null}
+            {section.image ? (
+              <div className="rounded-md border border-neutral-200 overflow-hidden bg-neutral-100">
+                <img
+                  src={section.image.src}
+                  alt={section.image.alt}
+                  className="w-full h-auto"
+                />
+              </div>
+            ) : null}
             {section.paragraphs?.map((paragraph, paragraphIndex) => (
               <p key={`${article.slug}-${sectionIndex}-${paragraphIndex}`}>
                 {paragraph}

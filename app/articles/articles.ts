@@ -3,6 +3,10 @@ export type ArticleSection = {
   paragraphs?: string[]
   bullets?: string[]
   equation?: string
+  image?: {
+    src: string
+    alt: string
+  }
 }
 
 export type Article = {
@@ -219,6 +223,12 @@ export const articles: Article[] = [
         ],
       },
       {
+        image: {
+          src: "/articles/convexity/watcher-guru.jpeg",
+          alt: "Watcher.Guru post highlighting large liquidations",
+        },
+      },
+      {
         heading: "2. Linearity is capital inefficient.",
         paragraphs: [
           "Consider a simple outcome. Bitcoin rallies from $100k to $150k over six months.",
@@ -239,6 +249,12 @@ export const articles: Article[] = [
           "AMM LPs face impermanent loss that's purely path-dependent. Uniswap v3 concentrated liquidity positions are effectively short gamma -- they lose money when volatility spikes. However, there's no way to purchase convexity to offset this. A straddle or variance swap would let LPs hedge their implicit short vol exposure.",
           "Without options, vaults, LPs, and traders either accept unhedgeable risk or deploy capital-intensive workarounds (e.g., short perps that get liquidated in a squeeze).",
         ],
+      },
+      {
+        image: {
+          src: "/articles/convexity/uniswap-v3.jpeg",
+          alt: "Uniswap v3 liquidity range interface",
+        },
       },
       {
         heading: "Bitcoin's volatility compression",
@@ -266,11 +282,23 @@ export const articles: Article[] = [
         ],
       },
       {
+        image: {
+          src: "/articles/convexity/btc-annualized-vol.jpeg",
+          alt: "Annualized BTC volatility chart over time",
+        },
+      },
+      {
         heading: "Crypto's implicit options",
         paragraphs: [
           "In many ways, crypto has (not so secretly) been trading options for years.",
           "A Polymarket binary contract priced at $0.10 for a 25bps FFR hike is functionally a call, entailing a deterministic resolution with an expiration date. Give prediction markets' recent proliferation, users comprehend path independence, expiration, and asymmetric payoffs. They're trading options; the interface just says \"Yes\" and \"No\". A recent paper by @DaedalusRsch formalized this equivalence, even proposing a mathematical model to standardize contract pricing.",
         ],
+      },
+      {
+        image: {
+          src: "/articles/convexity/polymarket-chart.jpeg",
+          alt: "Polymarket chart for a Fed decision market",
+        },
       },
       {
         heading: "Conclusion",
