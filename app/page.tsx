@@ -29,7 +29,7 @@ export default function Home() {
             I&apos;m a Quantitative Developer Intern at{" "}
             <Link
               href="https://artemis.xyz"
-              className="bg-[#E3C3C7] text-black px-1 -mx-1 box-decoration-clone"
+              className="bg-[#E3C3C7] text-black box-decoration-clone"
             >
               Artemis
             </Link>{" "}
@@ -39,21 +39,21 @@ export default function Home() {
             Prev. Research Analyst Intern at{" "}
             <Link
               href="https://dcg.co"
-              className="bg-[#E3C3C7] text-black px-1 -mx-1 box-decoration-clone"
+              className="bg-[#E3C3C7] text-black box-decoration-clone"
             >
               Digital Currency Group
             </Link>
             , Software Engineer Intern at{" "}
             <Link
               href="https://foundrydigital.com"
-              className="bg-[#E3C3C7] text-black px-1 -mx-1 box-decoration-clone"
+              className="bg-[#E3C3C7] text-black box-decoration-clone"
             >
               Foundry
             </Link>
             , Co-President of{" "}
             <Link
               href="https://www.texasblockchain.org"
-              className="bg-[#E3C3C7] text-black px-1 -mx-1 box-decoration-clone"
+              className="bg-[#E3C3C7] text-black box-decoration-clone"
             >
               Texas Blockchain
             </Link>
@@ -89,17 +89,12 @@ export default function Home() {
         <div className="content space-y-2">
           {[
             {
-              name: "FantasyKOL — Fantasty sports game for copytrading",
-              year: "2025",
-              link: "https://github.com/sreeduggirala/ethdenver2025",
-            },
-            {
               name: "ammBT — Python-based backtesting engine for AMM LPs",
               year: "2026",
               link: "https://github.com/sreeduggirala/ammbt",
             },
             {
-              name: "Burner — Solana-native mixer that breaks on-chain transaction linkability for SPL token transfers",
+              name: "Burner — SPL token mixer on Solana",
               year: "2026",
               link: "https://github.com/sreeduggirala/burner",
             },
@@ -107,6 +102,11 @@ export default function Home() {
               name: "Checkmate — A CLI-based dual-agent coding assistant",
               year: "2026",
               link: "https://github.com/sreeduggirala/checkmate",
+            },
+            {
+              name: "FantasyKOL — Fantasty sports game for copytrading",
+              year: "2025",
+              link: "https://github.com/sreeduggirala/ethdenver2025",
             },
             {
               name: "BitChat — RAG-based chatbot for the Bitcoin whitepaper",
