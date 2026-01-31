@@ -357,7 +357,7 @@ export const articles: Article[] = [
       {
         heading: "The Illusion of Value",
         paragraphs: [
-          "The recent "revenue meta," where protocols are now evaluated based on actual onchain fee accrual, reflects a growing discomfort with baseless, narrative-driven valuations that defined prior cycles.",
+          "The recent \"revenue meta,\" where protocols are now evaluated based on actual onchain fee accrual, reflects a growing discomfort with baseless, narrative-driven valuations that defined prior cycles.",
           "For years, tokens were priced on storytelling, market size projections, and speculative roadmaps. Fundamentals like usage, monetization, and margin structure were secondary at best. But in a market where most assets decay and supply outpaces demand, capital is seeking sustenance and evident paths to value accrual.",
         ],
       },
