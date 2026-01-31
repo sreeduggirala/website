@@ -315,15 +315,31 @@ export const articles: Article[] = [
       },
       {
         paragraphs: [
-          "In reality, crypto is a wealth extraction system disguised as investing.",
+          "**In reality, crypto is a wealth extraction system disguised as investing.**",
         ],
       },
       {
         paragraphs: [
           "In this sector, the software is often incidental and the token is the product. This harbors a perverse dynamic: protocols are built to justify tokens, not the other way around. The result is a massive token overproduction where retail investors become exit liquidity for private round gains.",
-          "Token Survival Rate After 75% or Greater MDD",
+          "*Token Survival Rate After 75% or Greater MDD*",
+        ],
+      },
+      {
+        image: {
+          src: "/articles/hodlers-fallacy/1.png",
+          alt: "Token Survival Rate After 75% or Greater MDD - pie chart showing only 3.7% of tokens recovered",
+        },
+      },
+      {
+        paragraphs: [
           "Of 16,000+ tokens analyzed, just 3.7% have ever recovered from a 75%+ drawdown, with recovery defined as revisiting the midpoint between their all-time high and low. This isn't a bear market phenomenon or poor timing...it's empirical evidence that the system is working as intended: to transfer wealth from public buyers to private sellers.",
         ],
+      },
+      {
+        image: {
+          src: "/articles/hodlers-fallacy/2.png",
+          alt: "Bitcoin market cap dominance chart from 2021-2025 showing rising dominance",
+        },
       },
       {
         paragraphs: [
@@ -341,15 +357,53 @@ export const articles: Article[] = [
       {
         heading: "The Illusion of Value",
         paragraphs: [
-          "The recent “revenue meta,” where protocols are now evaluated based on actual onchain fee accrual, reflects a growing discomfort with baseless, narrative-driven valuations that defined prior cycles.",
+          "The recent "revenue meta," where protocols are now evaluated based on actual onchain fee accrual, reflects a growing discomfort with baseless, narrative-driven valuations that defined prior cycles.",
           "For years, tokens were priced on storytelling, market size projections, and speculative roadmaps. Fundamentals like usage, monetization, and margin structure were secondary at best. But in a market where most assets decay and supply outpaces demand, capital is seeking sustenance and evident paths to value accrual.",
-          "The systematic destruction is measurable. Since Q1 2024, nearly 86% of tokens at $500M+ launch FDV experienced at least a 75% drawdown, with around 53% tokens down over 90% to date. Still, many trade at structurally overpriced revenue multiples and face continuous unlocks.",
         ],
       },
       {
+        image: {
+          src: "/articles/hodlers-fallacy/3.png",
+          alt: "Berachain (BERA) price chart showing decline from launch",
+        },
+      },
+      {
+        image: {
+          src: "/articles/hodlers-fallacy/4.png",
+          alt: "Berachain funding rounds - Series B $100M and Series A $42M",
+        },
+      },
+      {
         paragraphs: [
-          "What appears to be a discount is often just a slower path to zero.",
+          "The systematic destruction is measurable. Since Q1 2024, nearly 86% of tokens at $500M+ launch FDV experienced at least a 75% drawdown, with around 53% tokens down over 90% to date. Still, many trade at structurally overpriced revenue multiples and face continuous unlocks.",
+          "**What appears to be a discount is often just a slower path to zero.**",
+        ],
+      },
+      {
+        image: {
+          src: "/articles/hodlers-fallacy/5.png",
+          alt: "Aleo (ALEO) price chart showing 93.2% decline from max",
+        },
+      },
+      {
+        image: {
+          src: "/articles/hodlers-fallacy/6.png",
+          alt: "Aleo funding rounds - Extended Series B $70M, Series B $200M, Series A $28M",
+        },
+      },
+      {
+        paragraphs: [
           "This is visible across L1 and L2 fundraises, with valuations that assumed product-market fit. Hence, these platforms were priced for mass adoption before any fee capture materialized.",
+        ],
+      },
+      {
+        image: {
+          src: "/articles/hodlers-fallacy/7.png",
+          alt: "Messari chart showing most L2s have unfavorable valuations relative to network fees",
+        },
+      },
+      {
+        paragraphs: [
           "In contrast, some of the clear winners this cycle were revenue-generating protocols:",
         ],
         bullets: [
@@ -362,7 +416,7 @@ export const articles: Article[] = [
         paragraphs: [
           "These outcomes suggest that fundamentals do matter, but only for a narrow subset of protocols. Ironically, these “winners” were often fairly or even fully valued, not undiscovered gems.",
           "The takeaway isn’t that value can’t be found; it’s that most participants are poor at identifying it, and worse at entering at attractive valuations. Fundamentals may guide the best-in-class tokens, but they're the exception, not the norm.",
-          "Note: Annualized revenue was based on the 30D revenue SMA.",
+          "*Note: Annualized revenue was based on the 30D revenue SMA.*",
         ],
       },
       {
