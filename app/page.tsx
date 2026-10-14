@@ -9,7 +9,7 @@ export default function Home() {
       <header className="flex justify-between items-center">
         <div className="">Sree Duggirala</div>
         <nav className="space-x-4">
-          <Link href="mailto:sree@dcg.co" className="hover:underline">
+          <Link href="mailto:sree@duggirala.co" className="hover:underline">
             Email
           </Link>
           <Link href="https://x.com/sreevanth" className="hover:underline">
