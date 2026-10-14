@@ -48,6 +48,11 @@ export default function Home() {
         <div className="content space-y-2">
           {[
             {
+              title: "A Practical Guide to Power Markets",
+              year: "2026",
+              link: "https://x.com/sreevanth/status/2110428082444108136",
+            },
+            {
               title: "Keeping Score",
               year: "2026",
               link: "https://x.com/sreevanth/status/2045469648531890374",
