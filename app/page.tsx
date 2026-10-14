@@ -1,7 +1,5 @@
 import Link from "next/link"
 
-import { articles } from "./articles/articles"
-
 export default function Home() {
   return (
     <main className="space-y-12">
@@ -48,9 +46,26 @@ export default function Home() {
       <section className="flex flex-col md:flex-row gap-4">
         <h2 className="section-title">Articles</h2>
         <div className="content space-y-2">
-          {articles.map((article) => (
+          {[
+            {
+              title: "Keeping Score",
+              year: "2026",
+              link: "https://x.com/sreevanth/status/2045469648531890374",
+            },
+            {
+              title: "Convexity is All You Need",
+              year: "2026",
+              link: "https://x.com/sreevanth/status/2007215315046879262",
+            },
+            {
+              title:
+                "The HODLer's Fallacy: Rethinking Conviction in a Naturally Extractive Market",
+              year: "2025",
+              link: "https://x.com/sreevanth/status/1968789871025176786",
+            },
+          ].map((article) => (
             <div key={article.title} className="flex justify-between items-baseline">
-              <Link href={`/articles/${article.slug}`} className="project-link">
+              <Link href={article.link} className="project-link">
                 {article.title}
               </Link>
               <span className="year">{article.year}</span>
