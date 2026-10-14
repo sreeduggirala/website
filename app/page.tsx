@@ -25,39 +25,15 @@ export default function Home() {
       <section className="flex flex-col md:flex-row gap-4">
         <h2 className="section-title">About</h2>
         <div className="content">
-          <p className="mb-4">
-            I&apos;m a Quantitative Developer Intern at{" "}
-            <Link
-              href="https://artemis.xyz"
-              className="bg-[#E3C3C7] text-black box-decoration-clone"
-            >
-              Artemis
-            </Link>{" "}
-            and a senior in ECE at UT Austin.
-          </p>
           <p>
-            Prev. Research Analyst Intern at{" "}
+            I&apos;m a Quantitative Trading Analyst at{" "}
             <Link
-              href="https://dcg.co"
+              href="https://flowdesk.co"
               className="bg-[#E3C3C7] text-black box-decoration-clone"
             >
-              Digital Currency Group
-            </Link>
-            , Software Engineer Intern at{" "}
-            <Link
-              href="https://foundrydigital.com"
-              className="bg-[#E3C3C7] text-black box-decoration-clone"
-            >
-              Foundry
-            </Link>
-            , Co-President of{" "}
-            <Link
-              href="https://www.texasblockchain.org"
-              className="bg-[#E3C3C7] text-black box-decoration-clone"
-            >
-              Texas Blockchain
-            </Link>
-            .
+              Flowdesk
+            </Link>{" "}
+            and studied ECE at UT Austin (c/o 2026).
           </p>
         </div>
       </section>
@@ -65,7 +41,7 @@ export default function Home() {
       {/* Interests */}
       <section className="flex flex-col md:flex-row gap-4">
         <h2 className="section-title">Interests</h2>
-        <div className="content">Quantitative Finance, Macroeconomics</div>
+        <div className="content">Prediction Markets, Texas Hold &apos;Em, Jazz Saxophone, Surfing</div>
       </section>
 
       {/* Articles */}
@@ -82,58 +58,6 @@ export default function Home() {
           ))}
         </div>
       </section>
-
-      {/* Projects */}
-      <section className="flex flex-col md:flex-row gap-4">
-        <h2 className="section-title">Projects</h2>
-        <div className="content space-y-2">
-          {[
-            {
-              name: "ammBT — Python-based backtesting engine for AMM LPs",
-              year: "2026",
-              link: "https://github.com/sreeduggirala/ammbt",
-            },
-            {
-              name: "Burner — SPL token mixer on Solana",
-              year: "2026",
-              link: "https://github.com/sreeduggirala/burner",
-            },
-            {
-              name: "Checkmate — A CLI-based dual-agent coding assistant",
-              year: "2026",
-              link: "https://github.com/sreeduggirala/checkmate",
-            },
-            {
-              name: "FantasyKOL — Fantasty sports game for copytrading",
-              year: "2025",
-              link: "https://github.com/sreeduggirala/ethdenver2025",
-            },
-            {
-              name: "BitChat — RAG-based chatbot for the Bitcoin whitepaper",
-              year: "2024",
-              link: "https://github.com/sreeduggirala/bitchat",
-            },
-            {
-              name: "Swoosh — Onchain payments and bill splitting",
-              year: "2024",
-              link: "https://github.com/sreeduggirala/swoosh",
-            },
-            {
-              name: "Magizk Square — Privacy preserving Magic Square",
-              year: "2023",
-              link: "https://github.com/sreeduggirala/magizk-square",
-            },
-          ].map((project) => (
-            <div key={project.name} className="flex justify-between items-baseline">
-              <Link href={project.link || "#"} className="project-link">
-                {project.name}
-              </Link>
-              <span className="year">{project.year}</span>
-            </div>
-          ))}
-        </div>
-      </section>
-
     </main>
   )
 }
