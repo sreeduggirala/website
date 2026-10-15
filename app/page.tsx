@@ -27,7 +27,7 @@ export default function Home() {
             I&apos;m a Quantitative Trading Analyst at{" "}
             <Link
               href="https://flowdesk.co"
-              className="bg-[#E3C3C7] text-black box-decoration-clone"
+              className="bg-[#C3D5E8] text-black box-decoration-clone"
             >
               Flowdesk
             </Link>{" "}
